@@ -1,0 +1,165 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f0a500;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 24px;
+    color: #333;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+.post {
+   
+    width: 56%;
+  
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-left: 13%;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.post h2 {
+    color: #f0a500;
+}
+
+.post a {
+    color: #f0a500;
+    text-decoration: none;
+}
+
+aside {
+    width: 30%;
+}
+
+.recent-posts, .categories {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+   
+    
+}
+
+.recent-posts h3, .categories h3 {
+    color: #333;
+    margin-bottom: 15px;
+   
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    top:230%;
+}
+
+li{list-style: none;}
+a{color:#f0a500}
+h3{background-color:rgb(204, 204, 204) ;
+padding: 5px;
+}
+  #titulo{position: absolute;
+text-align: center;
+}
+header{text-align: center;}
+#blogtitulo{position: absolute;
+color:white;
+left: 54%;
+}
+nav{position: absolute;
+left:35%;
+top:100px;
+}
+
+.postagem {
+    position: absolute;
+    width: 56%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-left: 13%;
+    top:130%;
+    
+}
+
+.postagem img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.postagem h2 {
+    color: #f0a500;
+}
+
+.postagem a {
+    color: #f0a500;
+    text-decoration: none;
+}
+#posicao{position: absolute;
+left:71%;
+width: 80%;
+}
+footer{width: 100%;}
+
+#reservados{position: absolute;
+top:240%;
+background-color: rgb(204, 204, 204);
+color:black;
+}
+
+body{background-color: rgb(230, 230, 230);}
